@@ -1,0 +1,47 @@
+.referral-code-box {
+    max-width: 22.375rem;
+    height: 6.5625rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--violet);
+}
+
+.referral-code-input {
+    height: 4.3rem;
+    max-width: 100%;
+    margin-top: 5px;
+    background: var(--gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.referral-code-input > input {
+    position: relative;
+    width: 98.3%;
+    height: 4rem;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.9375rem 4rem;
+    letter-spacing: 1.5em;
+    color: var(--black);
+}
+
+/************* SMALL DEVICES *************/
+@media (width <= 600px) {
+
+    .referral-code-box {
+        font-size: 1rem;
+    } 
+
+    .referral-code-input > input {
+        font-size: .8rem;
+    }
+
+    
+}

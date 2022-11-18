@@ -1,0 +1,44 @@
+.dashboard {
+    width: 30.375rem;
+    height: 11.7rem;
+    border-radius: 20px;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    padding: 1.8125rem 0;
+}
+
+.dashboard-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.dashboard-item-heading {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--violet);
+}
+
+.dashboard-balance {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.withdraw {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.withdraw > button {
+    width: 11.25rem;
+    height: 2.5rem;
+    background-color: var(--violet);
+    color: #ffffff;
+    border: none;
+    border-radius: 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+

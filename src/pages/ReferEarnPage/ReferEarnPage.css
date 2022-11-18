@@ -1,0 +1,38 @@
+.container {
+    margin: 0 7.625rem ;
+}
+
+.container > div {
+    display: flex;
+    gap: 4.5625rem;
+    margin-bottom: 2.5rem;
+}
+
+.enrolled {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--violet);
+}
+
+/************* SMALL DEVICES *************/
+@media (width <= 600px) {
+
+    .container {
+        margin: 0 2.1875rem;
+    }
+
+    .container> div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container > div {
+        gap: 2rem;
+    }
+
+    .enrolled {
+        margin-top: 14rem;
+    }
+
+    
+}

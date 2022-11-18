@@ -1,0 +1,58 @@
+header {
+    height: 9.60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-items {
+    display: flex;
+}
+
+.header-items > span {
+    color: rgba(128, 0, 128, 0.25);
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.header-items :last-child {
+    color: var(--violet);
+}
+
+.profile-icon {
+    font-size: 1.25rem;
+    margin-right: 6px;
+    color: var(--violet);
+}
+
+.profile-arrow {
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+/************* SMALL DEVICES *************/
+@media (width <= 600px) {
+
+    .header-items > span:not(:last-child) {
+        display: none;
+    }
+
+    .header-items > span:last-child {
+        width: 10.3125rem;
+        height: 3rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+        background-color: var(--violet);
+        border-radius: 10px;
+        justify-content: space-evenly;
+    }
+
+    .profile-icon, .profile-arrow {
+        display: none;
+    }
+
+}

@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header/Header';
+import TitleBar from './components/TitleBar/TitleBar';
+import ReferEarnPage from './pages/ReferEarnPage/ReferEarnPage';
+import FriendsReferredPage from './pages/FriendsReferredPage/FriendsReferredPage';
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <TitleBar />
+      <Routes>
+        <Route path="/" exact element={<ReferEarnPage />} />
+        <Route path="/enrolled" element={<FriendsReferredPage />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

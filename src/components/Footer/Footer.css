@@ -1,0 +1,13 @@
+footer {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--violet);
+    margin-left: 7.625rem;
+}
+
+@media (width <= 600px) {
+
+    footer {
+    margin-left:2.1875rem;
+    }
+}

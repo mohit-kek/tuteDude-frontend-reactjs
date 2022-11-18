@@ -1,0 +1,79 @@
+.box {
+    margin: 0 7.625rem
+}
+
+.go-back {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    color: var(--violet);
+    font-size: 1rem;
+}
+
+.primary-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet-box {
+    width: 9.0625rem;
+    height: 5.3125rem;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wallet-heading {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--violet);
+}
+
+.wallet-amount {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    padding-right: 3.7rem;
+}
+
+.secondary-box {
+    margin: 4.9375rem 0;
+}
+
+.secondary-box > p  {
+    display: inline;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--violet);
+}
+
+.secondary-box > span {
+    font-size: 1.25rem;
+    color: var(--gray);
+}
+
+.secondary-box > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/************* SMALL DEVICES *************/
+@media (width <= 600px) {
+
+    .box {
+        margin: 0 2.1875rem;
+    }
+
+    .go-back {
+        visibility: visible;
+    }
+
+    .referral-box {
+        width: 9.5625rem;
+        
+    }
+}

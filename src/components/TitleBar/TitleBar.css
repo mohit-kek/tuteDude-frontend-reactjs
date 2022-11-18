@@ -1,0 +1,16 @@
+.titleBar {
+    height: 4.25rem;
+    width: 100%;
+    display: flex;
+    margin-left: 7.0625rem;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+}
+
+@media (width <= 600px) {
+
+    .titleBar {
+        margin: 0 2.1875rem;
+    }
+}
