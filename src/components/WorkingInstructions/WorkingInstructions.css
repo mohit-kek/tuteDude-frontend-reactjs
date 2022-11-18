@@ -8,6 +8,7 @@
     font-weight: 600;
     color: var(--violet);
     margin-bottom: 1.5rem;
+    cursor: pointer;
 }
 
 .inner-container {
@@ -15,6 +16,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    cursor: pointer;
 }
 
 .inner-container-items {

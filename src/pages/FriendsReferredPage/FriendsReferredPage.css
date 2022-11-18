@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .wallet-heading {
@@ -41,6 +42,7 @@
 
 .secondary-box {
     margin: 4.9375rem 0;
+    cursor: pointer;
 }
 
 .secondary-box > p  {
